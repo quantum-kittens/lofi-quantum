@@ -9,6 +9,7 @@ public class MusicPlayer : MonoBehaviour
 
 
     //Link (drag and drop) the music clips here in the editor The music for type 1 in the one array and the other in the other array
+    // Type 1 = Calm, Type 2 = Chill
     public AudioClip[] MusicType1;
     public AudioClip[] MusicType2;
 
