@@ -1,4 +1,4 @@
-# Lofi Quantum
+# Lo-fi Quantum
 
 
 By:
