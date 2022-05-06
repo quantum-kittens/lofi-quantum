@@ -181,3 +181,27 @@ Received Import Request.
   path: Assets/Graphics/Cat/Awake_Cat_3.png
   artifactKey: Guid(58f1646027733415982e4e3e7b6b30e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Graphics/Cat/Awake_Cat_3.png using Guid(58f1646027733415982e4e3e7b6b30e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41696744bd9446cf3c7aa860322443d') in 0.251227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 671.870476 seconds.
+  path: Assets/Graphics/Cat/Sleeping_Cat_2.png
+  artifactKey: Guid(4d19c210fd2544cd581bb5aff590e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Cat/Sleeping_Cat_2.png using Guid(4d19c210fd2544cd581bb5aff590e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff24248d97f060910b31b11080f62f9') in 0.030809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Graphics/Cat/Sleeping_Cat_4.png
+  artifactKey: Guid(349beea3ad8754827be282283d59726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Cat/Sleeping_Cat_4.png using Guid(349beea3ad8754827be282283d59726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f6b324e613ee49b68266afc1f508bd') in 0.010814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.531981 seconds.
+  path: Assets/Graphics/Cat/Sleeping_Cat_2.png
+  artifactKey: Guid(4d19c210fd2544cd581bb5aff590e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Cat/Sleeping_Cat_2.png using Guid(4d19c210fd2544cd581bb5aff590e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcf1a25546d8fc6058a703ea92928d2') in 0.300769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Graphics/Cat/Sleeping_Cat_3.png
+  artifactKey: Guid(215eebdc09ea4473489cd54360e42341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Cat/Sleeping_Cat_3.png using Guid(215eebdc09ea4473489cd54360e42341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9d3186dad9d3c357311b90698eb997') in 0.282191 seconds 
