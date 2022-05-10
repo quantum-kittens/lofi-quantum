@@ -2,9 +2,9 @@
 
 ## Genre: Chill
 
-- Sleepy Cat by Alejandro Magaña (A. M.) R
-(Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Fight Till the End by Ahjay Stelino (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
+- Sleepy Cat by Alejandro Magaña (A. M.) 
+(Free to use under Mixkit license https://mixkit.co/license/#musicFree) Votes: R-y
+- Fight Till the End by Ahjay Stelino (Free to use under Mixkit license https://mixkit.co/license/#musicFree) Votes: R-n
 - Up Work All My Life by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree) Votes: R-y
 
 
