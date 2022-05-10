@@ -1365,3 +1365,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1414.759462 seconds.
+  path: Assets/Graphics/MVP_3p1_foreground.png
+  artifactKey: Guid(813f20b205b844a17b4a01fea987f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/MVP_3p1_foreground.png using Guid(813f20b205b844a17b4a01fea987f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a5985710ea5549a8682c5babce3976') in 0.692156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.457629 seconds.
+  path: Assets/Graphics/MVP_3p1_foreground.png
+  artifactKey: Guid(813f20b205b844a17b4a01fea987f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/MVP_3p1_foreground.png using Guid(813f20b205b844a17b4a01fea987f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1288dc88d0b0de538f18728c6c93e0cf') in 0.265753 seconds 
