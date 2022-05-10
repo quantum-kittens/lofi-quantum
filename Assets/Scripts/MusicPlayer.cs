@@ -29,6 +29,8 @@ public class MusicPlayer : MonoBehaviour
         
         //For autostart you could have it here to be sure to always have a type chosen.
         //ChooseType(1);
+        ChooseType(1);
+	
     }
 
     // Update is called once per frame
