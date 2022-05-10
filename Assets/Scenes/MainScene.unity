@@ -339,7 +339,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 208231664}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1645829005}
+        m_TargetAssemblyTypeName: MusicPlayer, Assembly-CSharp
+        m_MethodName: ChooseType
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &208231664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,7 +6273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 15}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 882, y: -261}
+  m_AnchoredPosition: {x: 879, y: -262}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1058918746
@@ -7454,8 +7466,10 @@ MonoBehaviour:
   Source: {fileID: 0}
   MusicType1:
   - {fileID: 8300000, guid: 3295b3a01748a4261a3525dc91d823d5, type: 3}
+  - {fileID: 8300000, guid: e6005038595924c0c8d60c41e8b08a21, type: 3}
   MusicType2:
   - {fileID: 8300000, guid: 4bd3aed5394d84ee9ac99c3643c68018, type: 3}
+  - {fileID: 8300000, guid: 84430a32bcf1446eab07330af4dcff73, type: 3}
 --- !u!82 &1645829006
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13277,7 +13291,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2134922838}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1645829005}
+        m_TargetAssemblyTypeName: MusicPlayer, Assembly-CSharp
+        m_MethodName: ChooseType
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2134922838
 MonoBehaviour:
   m_ObjectHideFlags: 0

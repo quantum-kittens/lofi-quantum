@@ -554,3 +554,313 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2203ms)
+		BeginReloadAssembly (276ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (50ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1682ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1090ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (837ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.0 KB). Loaded Objects now: 2056.
+Memory consumption went from 223.1 MB to 223.1 MB.
+Total: 2.501625 ms (FindLiveObjects: 0.113166 ms CreateObjectMapping: 0.033084 ms MarkObjects: 2.338792 ms  DeleteObjects: 0.016041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000664 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.171 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2173ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (50ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1643ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (1058ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (820ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (21.9 KB). Loaded Objects now: 2059.
+Memory consumption went from 223.3 MB to 223.2 MB.
+Total: 2.556250 ms (FindLiveObjects: 0.127625 ms CreateObjectMapping: 0.031417 ms MarkObjects: 2.379916 ms  DeleteObjects: 0.015959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13348.985501 seconds.
+  path: Assets/Music/Calm/mixkit-ambient-251.mp3
+  artifactKey: Guid(3078d05610a12467e86a46bd00230fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Calm/mixkit-ambient-251.mp3 using Guid(3078d05610a12467e86a46bd00230fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dac845f6f6c518072c0bd1b74dea96') in 0.179550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Music/Calm/mixkit-transcending-347.mp3
+  artifactKey: Guid(33a00462e3ac64330a0296e57d1ab717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Calm/mixkit-transcending-347.mp3 using Guid(33a00462e3ac64330a0296e57d1ab717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bbe128b030e364682eaaa737246bf2') in 0.011312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Music/Calm/mixkit-classical-4-711.mp3
+  artifactKey: Guid(41bd09b6303884e3e82378987b7e868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Calm/mixkit-classical-4-711.mp3 using Guid(41bd09b6303884e3e82378987b7e868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12ce607b6b3fab60e441189a4adf407') in 0.007250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Music/Chill/mixkit-river-flow-594.mp3
+  artifactKey: Guid(0796052053fff42f6881b938c2204b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Chill/mixkit-river-flow-594.mp3 using Guid(0796052053fff42f6881b938c2204b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abff764c73f68be8ce4080c1ce7178c4') in 0.008413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003791 seconds.
+  path: Assets/Music/Chill/mixkit-lo-fi-04-766.mp3
+  artifactKey: Guid(2c544a14ca70345798eb86499c775507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Chill/mixkit-lo-fi-04-766.mp3 using Guid(2c544a14ca70345798eb86499c775507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c877e4b383529fb68835cc754b73e71b') in 0.010373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Music/Chill/mixkit-serene-view-443.mp3
+  artifactKey: Guid(e14de084be88a4fc09671d6efda64466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Chill/mixkit-serene-view-443.mp3 using Guid(e14de084be88a4fc09671d6efda64466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0df810554db52e3c2e63ecd1aa759a') in 0.007517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Music/Calm/mixkit-classical-7-714.mp3
+  artifactKey: Guid(31de98f5876e64778918019bd49e2d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Calm/mixkit-classical-7-714.mp3 using Guid(31de98f5876e64778918019bd49e2d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c124ef9c2096a39508e0a8d39f721aeb') in 0.007277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Music/Chill/mixkit-majestic-475.mp3
+  artifactKey: Guid(6982453bc46ee4418bfa9c1f0ea35c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Chill/mixkit-majestic-475.mp3 using Guid(6982453bc46ee4418bfa9c1f0ea35c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91727a1fb41b8d0bf19a7dc2ea91295') in 0.008132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Music/Chill/mixkit-reflections-on-the-shore-145.mp3
+  artifactKey: Guid(0b1a9a65be4b14560a312b3f55705e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Chill/mixkit-reflections-on-the-shore-145.mp3 using Guid(0b1a9a65be4b14560a312b3f55705e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25debec0c6fc628da417979ff3cfed4a') in 0.008384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Music/Chill/mixkit-lo-fi-02-764.mp3
+  artifactKey: Guid(e435153b3214944ddb8a0623bb64da4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Chill/mixkit-lo-fi-02-764.mp3 using Guid(e435153b3214944ddb8a0623bb64da4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8226ad376fcb76e28628947bea89b97') in 0.007550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Music/Calm/mixkit-classical-3-710.mp3
+  artifactKey: Guid(3c98d94833b804552b9f8ec44fc2f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Calm/mixkit-classical-3-710.mp3 using Guid(3c98d94833b804552b9f8ec44fc2f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734511b14fdd97c4b591b55ef5d6627f') in 0.007417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Music/Chill/mixkit-the-hamptons-331.mp3
+  artifactKey: Guid(b58d30cd8ca5c480da32a89602f1dd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Chill/mixkit-the-hamptons-331.mp3 using Guid(b58d30cd8ca5c480da32a89602f1dd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18a8a38bbbabb979f6e845d46200a11') in 0.007053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Music/Calm/mixkit-forest-walk-607.mp3
+  artifactKey: Guid(61ccf532f858c405e8e4aa1fa8879130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Calm/mixkit-forest-walk-607.mp3 using Guid(61ccf532f858c405e8e4aa1fa8879130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f78154d370cd335b1b00dfdb1b3826') in 0.008725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Music/Chill/mixkit-pondering-383.mp3
+  artifactKey: Guid(f87c30062965f421891dcdcb0b89d36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Chill/mixkit-pondering-383.mp3 using Guid(f87c30062965f421891dcdcb0b89d36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e4b39f441e6bdbf8c081a41e47b901') in 0.007064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.490275 seconds.
+  path: Assets/Music/Calm/mixkit-yoga-music-04-386.mp3
+  artifactKey: Guid(cb10ff67ae11242b9b6bdc2975064fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Calm/mixkit-yoga-music-04-386.mp3 using Guid(cb10ff67ae11242b9b6bdc2975064fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3b3c50a2d2dd956b8d3b9559f623f5') in 0.010157 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000813 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.258 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2261ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1700ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1115ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (875ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.0 KB). Loaded Objects now: 2062.
+Memory consumption went from 223.8 MB to 223.8 MB.
+Total: 4.929625 ms (FindLiveObjects: 0.100833 ms CreateObjectMapping: 0.031958 ms MarkObjects: 4.779083 ms  DeleteObjects: 0.016375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000768 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.103 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2105ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (44ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1629ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (1077ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (839ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.0 KB). Loaded Objects now: 2065.
+Memory consumption went from 224.0 MB to 223.9 MB.
+Total: 2.202584 ms (FindLiveObjects: 0.144958 ms CreateObjectMapping: 0.033500 ms MarkObjects: 2.010792 ms  DeleteObjects: 0.012125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
