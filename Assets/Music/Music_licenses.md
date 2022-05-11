@@ -4,7 +4,7 @@
 
 - Sleepy Cat by Alejandro Magaña (A. M.) 
 (Free to use under Mixkit license https://mixkit.co/license/#musicFree) 
-- Up Work All My Life by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree) Votes:
+- Up Work All My Life by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree) 
 - Majestic by Diego Nava (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Lo-Fi 01 by Lily J (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Lo-Fi 02 by Lily J (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
