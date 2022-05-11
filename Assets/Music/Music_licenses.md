@@ -3,8 +3,8 @@
 ## Genre: Chill
 
 - Sleepy Cat by Alejandro Magaña (A. M.) 
-(Free to use under Mixkit license https://mixkit.co/license/#musicFree) Votes: R-y
-- Up Work All My Life by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree) Votes: R-y
+(Free to use under Mixkit license https://mixkit.co/license/#musicFree) 
+- Up Work All My Life by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree) Votes:
 - Majestic by Diego Nava (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Lo-Fi 01 by Lily J (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Lo-Fi 02 by Lily J (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
@@ -17,8 +17,8 @@
 
 ## Genre: Calm
 
-- Momentum by Borrtex (Free for non-commercial use) Votes: R-y
-- Yoga Music 05 by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree) Votes: R-y
+- Momentum by Borrtex (Free for non-commercial use)
+- Yoga Music 05 by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Forest Walk by Eugenio Mininni (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Nature Meditation by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Staring at the Night Sky by Alejandro Magaña (A. M.) (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
