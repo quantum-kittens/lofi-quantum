@@ -19,6 +19,7 @@ public class MusicPlayer : MonoBehaviour
 
     int current = 0;
     bool hasStarted = false;
+    bool isPaused = false;
 
     // Start is called before the first frame update
     void Start()
@@ -37,13 +38,15 @@ public class MusicPlayer : MonoBehaviour
     void Update()
     {
         //play the next song when song is finished
-        if (hasStarted && ! Source.isPlaying) {
+        if (hasStarted && ! Source.isPlaying && !isPaused) {
+            Debug.Log("Finished play next");
             PlayNext();
         }
     }
 
 
     public void ChooseType(int type) {
+        Debug.Log("Choose types");
         if (type==1) {
             ActiveMusicType = MusicType1;
         } else {
@@ -57,6 +60,7 @@ public class MusicPlayer : MonoBehaviour
     }
 
     public void Randomize() {
+        Debug.Log("Randomize");
         int rnd = 0;
         for (int i = 0; i < ActiveMusicType.Length; i++) {
             rnd = Random.Range(0, ActiveMusicType.Length);
@@ -67,14 +71,31 @@ public class MusicPlayer : MonoBehaviour
     }
 
     public void Play() {
-        Source.Play();
-    }
 
+        if (isPaused) {
+            Debug.Log("play unpause");
+            Source.UnPause();
+            isPaused = false;
+        } else {
+            Debug.Log("Play");
+            Source.Play();
+        }
+    }
     public void Pause() {
-        Source.Pause();
+        Debug.Log("pause pressed.");
+        if (isPaused) {
+            Debug.Log("unpause");
+            Source.UnPause();
+            isPaused = false;
+        } else {
+            Source.Pause();
+            isPaused = true;
+            Debug.Log("Pause");
+        }
     }
 
     public void PlayNext() {
+        Debug.Log("Play next");
         current++;
         current = current % ActiveMusicType.Length;
         Source.clip = ActiveMusicType[current];
