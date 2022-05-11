@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MusicPlayer : MonoBehaviour
 {
@@ -13,7 +14,8 @@ public class MusicPlayer : MonoBehaviour
     public AudioClip[] MusicType1;
     public AudioClip[] MusicType2;
 
-
+    public Button CalmButton;
+    public Button ChillButton;
 
     AudioClip[] ActiveMusicType;
 
@@ -49,8 +51,10 @@ public class MusicPlayer : MonoBehaviour
         Debug.Log("Choose types");
         if (type==1) {
             ActiveMusicType = MusicType1;
+            CalmButton.Select();
         } else {
             ActiveMusicType = MusicType2;
+            ChillButton.Select();
         }
         Randomize();
         current = 0;
