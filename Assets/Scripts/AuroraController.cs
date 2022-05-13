@@ -11,7 +11,7 @@ public class AuroraController : MonoBehaviour
     private float moveSpeed;
     [SerializeField]
     private float phaseSpeed;
-    private ParticleSystem auroraEmitter;
+    public ParticleSystem auroraEmitter;
     private float phase;
     private float targetPhase;
     private float hue;
@@ -20,11 +20,15 @@ public class AuroraController : MonoBehaviour
 
     private void Start()
     {
-        this.auroraEmitter = this.GetComponentInChildren<ParticleSystem>();
+
+        Debug.Log("start");
+        //this.auroraEmitter = this.GetComponentInChildren<ParticleSystem>();
         this.hue = 0;
         this.phase = 0;
         this.targetPhase = 0;
         this.UpdateColor();
+        this.auroraEmitter.gameObject.SetActive(true);
+
         // Get particle system's color over lifetime module
         ParticleSystem.ColorOverLifetimeModule col = this.auroraEmitter.colorOverLifetime;
         col.enabled = true;

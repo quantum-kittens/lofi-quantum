@@ -23,13 +23,19 @@ public class MusicPlayer : MonoBehaviour
     bool hasStarted = false;
     bool isPaused = false;
 
+    Color normal;
+    Color highlight;
+
     // Start is called before the first frame update
     void Start()
     {
         if (Source==null) {
             Source = GetComponent<AudioSource>();
         }
-        
+
+        normal = CalmButton.colors.normalColor;
+        highlight = CalmButton.colors.highlightedColor;
+
         //For autostart you could have it here to be sure to always have a type chosen.
         //ChooseType(1);
         ChooseType(1);
@@ -51,10 +57,24 @@ public class MusicPlayer : MonoBehaviour
         Debug.Log("Choose types");
         if (type==1) {
             ActiveMusicType = MusicType1;
-            CalmButton.Select();
+
+            ColorBlock colors = CalmButton.colors;
+            colors.normalColor = highlight;
+            CalmButton.colors= colors;
+
+            ColorBlock colors2 = ChillButton.colors;
+            colors2.normalColor = normal;
+            ChillButton.colors = colors2;
         } else {
             ActiveMusicType = MusicType2;
-            ChillButton.Select();
+
+            ColorBlock colors = ChillButton.colors;
+            colors.normalColor = highlight;
+            ChillButton.colors = colors;
+
+            ColorBlock colors2 = CalmButton.colors;
+            colors2.normalColor = normal;
+            CalmButton.colors = colors2;
         }
         Randomize();
         current = 0;
