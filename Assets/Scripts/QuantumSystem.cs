@@ -37,7 +37,7 @@ public class QuantumSystem : MonoBehaviour {
 
     void Start() {
         this.phase = 0.0f;
-        //this.quantumQircuit = new QuantumCircuit(2, 2);
+        
         this.simulator = new MicroQiskitSimulator();
 
         quantumQircuit = new QuantumCircuit(1, 1, true);
@@ -66,59 +66,27 @@ public class QuantumSystem : MonoBehaviour {
     void CalculateValues() {
         simulator.SimulateInPlace(quantumQircuit, ref quantumQircuit.Amplitudes);
         quantumQircuit.ResetGates();
+        //convert amplitudes to probabilities
         zeroValue = Math.Pow(quantumQircuit.Amplitudes[0].Real, 2) + Math.Pow(quantumQircuit.Amplitudes[0].Complex, 2);
         oneValue = Math.Pow(quantumQircuit.Amplitudes[1].Real, 2) + Math.Pow(quantumQircuit.Amplitudes[1].Complex, 2);
 
-        double eps = 0.001;
+        //double eps = 0.001;
+
+       //////// Note: these will ALWAYS be 0.50 so long as we are only changing the phase
 
         ZeroText.text = zeroValue.ToString("0.00");
         OneText.text = oneValue.ToString("0.00");
-        phaseValue = 0;
+        phaseValue = 0.0;
 
-        if (Math.Abs(quantumQircuit.Amplitudes[0].Complex) > eps) {
-            if (Math.Abs(quantumQircuit.Amplitudes[0].Real) > eps) {
-                Debug.Log("no zero");
-                phaseValue = Math.Atan2(quantumQircuit.Amplitudes[0].Complex, quantumQircuit.Amplitudes[0].Real);
+        phaseValue = Math.Atan2(quantumQircuit.Amplitudes[0].Complex, quantumQircuit.Amplitudes[0].Real);
 
-                phaseValue = phaseValue / Math.PI;
-                //phaseValue = phaseValue / 2;
-                if (quantumQircuit.Amplitudes[0].Real < 0) {
-                    if (quantumQircuit.Amplitudes[0].Complex < 0) {
-                        phaseValue = -phaseValue;
-
-                    } else {
-                        phaseValue = 2 - phaseValue;
-
-                    }
-                } else {
-                    if (quantumQircuit.Amplitudes[0].Complex < 0) {
-                        phaseValue = -phaseValue;
-                    } else {
-                        phaseValue = 2 - phaseValue;
-
-                    }
-                }
-            } else {
-
-                if (quantumQircuit.Amplitudes[0].Complex < 0) {
-                    phaseValue = 0.5;
-                } else {
-                    phaseValue = 1.5;
-                }
-            }
-        } else {
-            if (quantumQircuit.Amplitudes[0].Real < 0) {
-                phaseValue = 1;
-            }
-        }
-
-        Debug.Log(quantumQircuit.Amplitudes[0].Real + " " + quantumQircuit.Amplitudes[0].Complex + " " + phaseValue);
-
-        //CatSleeping.color = new Color(1, 1, 1, (float)oneValue);
-        //CatAwake.color = new Color(1, 1, 1, (float)zeroValue);
+        phaseValue = -phaseValue / Math.PI;
 
 
-        PhaseValue.text = phaseValue.ToString("0.0");
+        Debug.Log(quantumQircuit.Amplitudes[0].Real + " " + quantumQircuit.Amplitudes[0].Complex + " " + phaseValue );
+
+
+        PhaseValue.text = phaseValue.ToString("0.00");
     }
 
     public float GetPhase() {
@@ -131,7 +99,7 @@ public class QuantumSystem : MonoBehaviour {
         }
 
         this.phase += change / 180.0f * Mathf.PI;
-        TargetText.text = "Phase: " + this.phase;
+        //TargetText.text = "Phase: " + this.phase;
         ApplyZRotation(change);
     }
 
@@ -216,4 +184,6 @@ public class QuantumSystem : MonoBehaviour {
         quantumQircuit.H(0);
         CalculateValues();
     }
+
+
 }
