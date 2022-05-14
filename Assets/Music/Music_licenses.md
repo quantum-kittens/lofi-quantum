@@ -26,23 +26,3 @@
 - Fallen (Asper) by Eugenio Mininni (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 
 
-
-
-## Genre: Sleep
-- Chillax by Francisco Alvear (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Classical 3 by Jonny S  (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Classical 4 by Jonny S  (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Classical 7 by Jonny S  (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Tanscending by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Ambient by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-
-
-
-## Unclassified
-
-- Feedback Dreams by Eugenio Mininni (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Harp Relax by Francisco Alvear (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Pondering by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Reflections on the Shore by Alejandro Magaña (A. M.) (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-
-
