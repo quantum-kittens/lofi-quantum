@@ -62,10 +62,10 @@ Github repo: https://github.com/quantum-kittens/lofi-quantum
 
 
 ## Credits
-Ella Toppari (Illustration & Scene Design, Music)
-Radha Pyari Sandhir (Digital Art & Scene Design, Unity, Quantum Physics, Music)
-Marcel Pfaffhauser (Unity, Quantum Physics)
-Tuure Saloheimo (Unity)
+- Ella Toppari (Illustration & Scene Design, Music)
+- Radha Pyari Sandhir (Digital Art & Scene Design, Unity, Quantum Physics, Music)
+- Marcel Pfaffhauser (Unity, Quantum Physics)
+- Tuure Saloheimo (Unity)
 
 Music tracks and licences here: https://github.com/quantum-kittens/lofi-quantum/blob/main/Assets/Music/Music_licenses.md
 
