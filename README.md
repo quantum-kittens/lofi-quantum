@@ -5,9 +5,9 @@ Welcome to Kvantti Kunj, where playful critters scamper about lush terrain, and 
 
 Quantum Grove is an interactive art piece playable in the browser that functions as a lo-fi ambience for study, work, and relaxation. 
 
-Play the game here: (https://quantum-kittens.itch.io/quantum-grove)
+# Play the game here: [https://quantum-kittens.itch.io/quantum-grove](https://quantum-kittens.itch.io/quantum-grove)
 
-<img src="https://www.radhapyarisandhir.com/wp-content/uploads/2020/02/qc.jpg" width="50%"  />
+<img src="https://github.com/quantum-kittens/lofi-quantum/blob/main/Assets/Graphics/Screenshots/Screenshot1.png" width="50%"  />
 
 ## How to Play
 The player controls the audio and visuals of the ambience through buttons on the car dashboard.
