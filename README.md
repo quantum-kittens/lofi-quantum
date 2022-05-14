@@ -5,12 +5,14 @@ Welcome to Kvantti Kunj, where playful critters scamper about lush terrain, and 
 
 Quantum Grove is an interactive art piece playable in the browser that functions as a lo-fi ambience for study, work, and relaxation. 
 
-# Play the game here: [https://quantum-kittens.itch.io/quantum-grove](https://quantum-kittens.itch.io/quantum-grove)
+### Play the game here: [https://quantum-kittens.itch.io/quantum-grove](https://quantum-kittens.itch.io/quantum-grove)
 
-<img src="https://github.com/quantum-kittens/lofi-quantum/blob/main/Assets/Graphics/Screenshots/Screenshot1.png" width="50%"  />
+<img src="https://github.com/quantum-kittens/lofi-quantum/blob/main/Assets/Graphics/Screenshots/Screenshot1.png" width="70%"  />
 
 ## How to Play
 The player controls the audio and visuals of the ambience through buttons on the car dashboard.
+
+<img src="https://github.com/quantum-kittens/lofi-quantum/blob/main/Assets/Graphics/Screenshots/Dashboard.png" width="40%"  />
 
 ### Music Controls:
  
@@ -38,6 +40,8 @@ The cat can either be awake or asleep. You can potentially change its state by c
 
 Note: The qubit is always in an equally weighted superposition, as the quantum gates only affect its phase. This superposition is visually represented at the start of the game, by showing the two possible cat states:
 
+<img src="https://github.com/quantum-kittens/lofi-quantum/blob/main/Assets/Graphics/Screenshots/Superposition.png" width="40%"  />
+
 This means there’s a 0.5 probability that the cat will either be awake or asleep after you click it. Therefore clicking on the cat doesn’t act as a simple toggle!
 
 
@@ -50,8 +54,6 @@ By playing around with the gates, players can begin to foster an intuition about
 The quantum system that governs Quantum Grove was programmed using MicroQiskit.
 
 The educational aspect of Quantum Grove was inspired by James Weaver’s Grok the Bloch sphere: https://javafxpert.github.io/grok-bloch/
-
-
 
 ## Tools
 Unity 2021.3.1f1, Watercolors & ink pens, Procreate, Adobe Photoshop, Canva, Github, MicroQiskit
