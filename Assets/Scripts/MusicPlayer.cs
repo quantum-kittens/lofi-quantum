@@ -33,8 +33,8 @@ public class MusicPlayer : MonoBehaviour
             Source = GetComponent<AudioSource>();
         }
 
-        normal = CalmButton.colors.normalColor;
-        highlight = CalmButton.colors.highlightedColor;
+        //normal = CalmButton.colors.normalColor;
+        //highlight = CalmButton.colors.highlightedColor;
 
         //For autostart you could have it here to be sure to always have a type chosen.
         //ChooseType(1);
@@ -58,23 +58,26 @@ public class MusicPlayer : MonoBehaviour
         if (type==1) {
             ActiveMusicType = MusicType1;
 
-            ColorBlock colors = CalmButton.colors;
-            colors.normalColor = highlight;
-            CalmButton.colors= colors;
+            //ColorBlock colors = CalmButton.colors;
+            //colors.normalColor = highlight;
+            //CalmButton.colors= colors;
+            CalmButton.Select();
 
-            ColorBlock colors2 = ChillButton.colors;
-            colors2.normalColor = normal;
-            ChillButton.colors = colors2;
+            //ColorBlock colors2 = ChillButton.colors;
+            //colors2.normalColor = normal;
+            //ChillButton.colors = colors2;
         } else {
             ActiveMusicType = MusicType2;
 
-            ColorBlock colors = ChillButton.colors;
-            colors.normalColor = highlight;
-            ChillButton.colors = colors;
+            //ColorBlock colors = ChillButton.colors;
+            //colors.normalColor = highlight;
+            //ChillButton.colors = colors;
 
-            ColorBlock colors2 = CalmButton.colors;
-            colors2.normalColor = normal;
-            CalmButton.colors = colors2;
+            //ColorBlock colors2 = CalmButton.colors;
+            //colors2.normalColor = normal;
+            //CalmButton.colors = colors2;
+            ChillButton.Select();
+
         }
         Randomize();
         current = 0;
