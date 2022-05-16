@@ -12,7 +12,6 @@
 - The Hamptons by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Follow me home by Arulo (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
 - Jump into Hope by Diego Nava (Free to use under Mixkit license https://mixkit.co/license/#musicFree)
-- Sad Boi Hours - Kowkaine (Used with the artist's permission)
 
 
 
