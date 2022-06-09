@@ -162,8 +162,8 @@ public class QuantumSystem : MonoBehaviour {
         if (isMeasuring) {
             return;
         }
-        //there was some wrong scaling this should not be needed.
-        //change = change * 2;
+        //2pi periodic not pi periodic
+        change = change * 2;
         quantumQircuit.RZ(0, change / 360 * 2 * Math.PI);
 
         CalculateValues();
